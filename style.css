@@ -199,3 +199,12 @@ td {
     border: 1px solid #ccc;
     padding: 8px;
 }
+
+/* grid section */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin: 50px 0;
+}
